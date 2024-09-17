@@ -9,7 +9,7 @@ body {
     align-items: down;  /* center vertically */
     justify-content: flex-start;  /* on top horizontally */
     height: 100vh;
-    background: linear-gradient(to bottom right, #4b6cb7, #182848);
+    background: linear-gradient(to bottom right, #13d100, #66ce35 );
     background-size: cover;
     font-family: 'Ariel', sans-serif;
     overflow: hidden;  /* disable scrolling */
