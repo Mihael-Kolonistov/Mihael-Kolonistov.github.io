@@ -1,6 +1,5 @@
-
-nav{
- float: down;
+.menu-item{
+ float: right-down;
 }
 body {
     margin: 0;
