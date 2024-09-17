@@ -1,5 +1,5 @@
-.menu-item{
- float: right-down;
+.menu-item div{
+    float: down;
 }
 body {
     margin: 0;
