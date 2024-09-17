@@ -1,15 +1,13 @@
-.menu-item div{
-    float: down;
-}
+
 body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
-    align-items: down;  /* center vertically */
+    flex-direction: column;
+    align-items: bottum;  /* center vertically */
     justify-content: flex-start;  /* on top horizontally */
     height: 100vh;
-    background: linear-gradient(to bottom right, #13d100, #66ce35 );
+    background: linear-gradient(to bottom right, #17a589 , #239b56);
     background-size: cover;
     font-family: 'Ariel', sans-serif;
     overflow: hidden;  /* disable scrolling */
