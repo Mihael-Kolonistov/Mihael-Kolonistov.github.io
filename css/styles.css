@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: line;
     align-items: bottum;  /* center vertically */
     justify-content: flex-start;  /* on top horizontally */
     height: 100vh;
