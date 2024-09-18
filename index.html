@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" style="background-image: url(assets/index_lets_tap.jpg);" background-repeat="no-repeat"; background-position="center center"; background-attachment="fixed"; -webkit-background-size="cover";  -moz-background-size="cover"; -o-background-size="cover";  background-size="cover";>
-<head>
+<html lang="ru" style="background-color: #88ff00 ">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
@@ -8,17 +7,13 @@
 	
     <title>alkashcoin</title>
 </head>
-<body>
-  <div class="coin-container"></div>
 
+<body>
+  <img src="assets/index_lets_tap.jpg" alt="let`s taping!">
+  <div class="coin-container"></div>
   <div class="total-coins-container"></div>
   <div class="menu-bar" style="text-align:center;">
-	<script type="module">
-		import { activateMenuItemEffect } from "./src/js/utils.js";
-		document.addEventListener('DOMContentLoaded', () => {activateMenuItemEffect();})
-	</script>
-</body>
-<footer>
+  <DOWN>
 		<div class="menu-item" id="wallet" style="--mask-url: none; float:left;">
 			<img src="./assets/wallet.webp" alt="wallet">	
 		</div>
@@ -29,6 +24,10 @@
 			<img src="./assets/refer.webp" alt="refer">
 		</div>
 	</div>
-</footer>	
- 
+</DOWN>
+	<script type="module">
+		import { activateMenuItemEffect } from "./src/js/utils.js";
+		document.addEventListener('DOMContentLoaded', () => {activateMenuItemEffect();})
+	</script>
+</body>
 </html>
